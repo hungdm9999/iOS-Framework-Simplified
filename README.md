@@ -1,7 +1,7 @@
 iOS-Framework-Simplified
 ========================
 
-This a simplified version of https://github.com/jverkoey/iOS-Framework and other project on github that made easy to change framework to framework by only one step
+This is a simplified version of https://github.com/jverkoey/iOS-Framework and other project on github that made easy to change framework to framework by only one step
 
 Apply into your project.
 - Create your target that will generate .a library with Build Active Architecture Only set to NO, so that the library support i386 (the simulator)
