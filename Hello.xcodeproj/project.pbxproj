@@ -6,25 +6,41 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		044AAA0F196F652F00E5867E /* Hello-Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 044AAA10196F652F00E5867E /* Build configuration list for PBXAggregateTarget "Hello-Framework" */;
+			buildPhases = (
+				044AAA13196F653600E5867E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Hello-Framework";
+			productName = "Hello-Framework";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		044AA9EA196F645D00E5867E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9E9196F645D00E5867E /* Foundation.framework */; };
 		044AA9EF196F645D00E5867E /* Hello.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 044AA9EE196F645D00E5867E /* Hello.h */; };
 		044AA9F1196F645D00E5867E /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AA9F0196F645D00E5867E /* Hello.m */; };
-		044AA9F8196F645D00E5867E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9F7196F645D00E5867E /* XCTest.framework */; };
-		044AA9F9196F645D00E5867E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9E9196F645D00E5867E /* Foundation.framework */; };
-		044AA9FB196F645D00E5867E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9FA196F645D00E5867E /* UIKit.framework */; };
-		044AA9FE196F645D00E5867E /* libHello.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9E6196F645D00E5867E /* libHello.a */; };
-		044AAA04196F645D00E5867E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044AAA02196F645D00E5867E /* InfoPlist.strings */; };
-		044AAA06196F645D00E5867E /* HelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAA05196F645D00E5867E /* HelloTests.m */; };
+		044AAA19196F661200E5867E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9E9196F645D00E5867E /* Foundation.framework */; };
+		044AAA1B196F661200E5867E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AAA1A196F661200E5867E /* CoreGraphics.framework */; };
+		044AAA1C196F661200E5867E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AA9FA196F645D00E5867E /* UIKit.framework */; };
+		044AAA22196F661200E5867E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044AAA20196F661200E5867E /* InfoPlist.strings */; };
+		044AAA24196F661200E5867E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAA23196F661200E5867E /* main.m */; };
+		044AAA28196F661200E5867E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAA27196F661200E5867E /* AppDelegate.m */; };
+		044AAA2A196F661200E5867E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044AAA29196F661200E5867E /* Images.xcassets */; };
+		044AAA46196F665A00E5867E /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AAA45196F665A00E5867E /* Hello.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		044AA9FC196F645D00E5867E /* PBXContainerItemProxy */ = {
+		044AAA43196F662600E5867E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 044AA9DE196F645D00E5867E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 044AA9E5196F645D00E5867E;
-			remoteInfo = Hello;
+			remoteGlobalIDString = 044AAA0F196F652F00E5867E;
+			remoteInfo = "Hello-Framework";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,12 +63,21 @@
 		044AA9ED196F645D00E5867E /* Hello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-Prefix.pch"; sourceTree = "<group>"; };
 		044AA9EE196F645D00E5867E /* Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
 		044AA9F0196F645D00E5867E /* Hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
-		044AA9F6196F645D00E5867E /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044AA9F7196F645D00E5867E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		044AA9FA196F645D00E5867E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		044AAA01196F645D00E5867E /* HelloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloTests-Info.plist"; sourceTree = "<group>"; };
 		044AAA03196F645D00E5867E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		044AAA05196F645D00E5867E /* HelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTests.m; sourceTree = "<group>"; };
+		044AAA18196F661200E5867E /* HelloFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044AAA1A196F661200E5867E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		044AAA1F196F661200E5867E /* HelloFrameworkDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloFrameworkDemo-Info.plist"; sourceTree = "<group>"; };
+		044AAA21196F661200E5867E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		044AAA23196F661200E5867E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044AAA25196F661200E5867E /* HelloFrameworkDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloFrameworkDemo-Prefix.pch"; sourceTree = "<group>"; };
+		044AAA26196F661200E5867E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044AAA27196F661200E5867E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044AAA29196F661200E5867E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044AAA45196F665A00E5867E /* Hello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hello.framework; path = lib_output/Hello.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +89,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		044AA9F3196F645D00E5867E /* Frameworks */ = {
+		044AAA15196F661200E5867E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044AA9FE196F645D00E5867E /* libHello.a in Frameworks */,
-				044AA9F8196F645D00E5867E /* XCTest.framework in Frameworks */,
-				044AA9FB196F645D00E5867E /* UIKit.framework in Frameworks */,
-				044AA9F9196F645D00E5867E /* Foundation.framework in Frameworks */,
+				044AAA1B196F661200E5867E /* CoreGraphics.framework in Frameworks */,
+				044AAA1C196F661200E5867E /* UIKit.framework in Frameworks */,
+				044AAA19196F661200E5867E /* Foundation.framework in Frameworks */,
+				044AAA46196F665A00E5867E /* Hello.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,7 @@
 			children = (
 				044AA9EB196F645D00E5867E /* Hello */,
 				044AA9FF196F645D00E5867E /* HelloTests */,
+				044AAA1D196F661200E5867E /* HelloFrameworkDemo */,
 				044AA9E8196F645D00E5867E /* Frameworks */,
 				044AA9E7196F645D00E5867E /* Products */,
 			);
@@ -92,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				044AA9E6196F645D00E5867E /* libHello.a */,
-				044AA9F6196F645D00E5867E /* HelloTests.xctest */,
+				044AAA18196F661200E5867E /* HelloFrameworkDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +129,7 @@
 				044AA9E9196F645D00E5867E /* Foundation.framework */,
 				044AA9F7196F645D00E5867E /* XCTest.framework */,
 				044AA9FA196F645D00E5867E /* UIKit.framework */,
+				044AAA1A196F661200E5867E /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +170,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		044AAA1D196F661200E5867E /* HelloFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				044AAA45196F665A00E5867E /* Hello.framework */,
+				044AAA26196F661200E5867E /* AppDelegate.h */,
+				044AAA27196F661200E5867E /* AppDelegate.m */,
+				044AAA29196F661200E5867E /* Images.xcassets */,
+				044AAA1E196F661200E5867E /* Supporting Files */,
+			);
+			path = HelloFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		044AAA1E196F661200E5867E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044AAA1F196F661200E5867E /* HelloFrameworkDemo-Info.plist */,
+				044AAA20196F661200E5867E /* InfoPlist.strings */,
+				044AAA23196F661200E5867E /* main.m */,
+				044AAA25196F661200E5867E /* HelloFrameworkDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,23 +213,23 @@
 			productReference = 044AA9E6196F645D00E5867E /* libHello.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		044AA9F5196F645D00E5867E /* HelloTests */ = {
+		044AAA17196F661200E5867E /* HelloFrameworkDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044AAA0C196F645D00E5867E /* Build configuration list for PBXNativeTarget "HelloTests" */;
+			buildConfigurationList = 044AAA3D196F661200E5867E /* Build configuration list for PBXNativeTarget "HelloFrameworkDemo" */;
 			buildPhases = (
-				044AA9F2196F645D00E5867E /* Sources */,
-				044AA9F3196F645D00E5867E /* Frameworks */,
-				044AA9F4196F645D00E5867E /* Resources */,
+				044AAA14196F661200E5867E /* Sources */,
+				044AAA15196F661200E5867E /* Frameworks */,
+				044AAA16196F661200E5867E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				044AA9FD196F645D00E5867E /* PBXTargetDependency */,
+				044AAA44196F662600E5867E /* PBXTargetDependency */,
 			);
-			name = HelloTests;
-			productName = HelloTests;
-			productReference = 044AA9F6196F645D00E5867E /* HelloTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = HelloFrameworkDemo;
+			productName = HelloFrameworkDemo;
+			productReference = 044AAA18196F661200E5867E /* HelloFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,21 +253,39 @@
 			projectRoot = "";
 			targets = (
 				044AA9E5196F645D00E5867E /* Hello */,
-				044AA9F5196F645D00E5867E /* HelloTests */,
+				044AAA0F196F652F00E5867E /* Hello-Framework */,
+				044AAA17196F661200E5867E /* HelloFrameworkDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		044AA9F4196F645D00E5867E /* Resources */ = {
+		044AAA16196F661200E5867E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044AAA04196F645D00E5867E /* InfoPlist.strings in Resources */,
+				044AAA22196F661200E5867E /* InfoPlist.strings in Resources */,
+				044AAA2A196F661200E5867E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044AAA13196F653600E5867E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XCODEBUILD_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin\nXCODEBUILD=$XCODEBUILD_PATH/xcodebuild\n\nLIB_TARGET=\"Hello\"\nLIB_FILENAME=\"lib${LIB_TARGET}.a\"\necho ${LIB_TARGET}\necho ${LIB_FILENAME}\necho ${PROJECT_NAME}\necho \"build starting\"\necho \"command:$XCODEBUILD -project \"${PROJECT_NAME}.xcodeproj\" -target $LIB_TARGET -sdk iphonesimulator -configuration Debug clean build\"\n\n$XCODEBUILD -project \"${PROJECT_NAME}.xcodeproj\" -target $LIB_TARGET -sdk \"iphonesimulator\" -configuration \"Debug\" clean build\n$XCODEBUILD -project \"${PROJECT_NAME}.xcodeproj\" -target $LIB_TARGET -sdk \"iphoneos\" -configuration \"Debug\" clean build\n\nmkdir -p lib_output\nmkdir -p \"lib_output/include/${LIB_TARGET}\"\nlipo -create -output \"lib_output/${LIB_FILENAME}\" \"build/Debug-iphoneos/$LIB_FILENAME\" \"build/Debug-iphonesimulator/$LIB_FILENAME\"\n\ncp -f build/Debug-iphoneos/include/${LIB_TARGET}/* \"lib_output/include/${LIB_TARGET}\"\n                                                 cd \"build/\"\n                                                 rm -rf *\n                                                 \n                                                 cd ..\n                                                 cd lib_output\n                                                 # set  –e\n                                                 mkdir -p \"${LIB_TARGET}.framework/Versions/A/Headers\"\n                                                 # Link the \"Current\" version to \"A\"\n                                                 /bin/ln -sfh A \"${LIB_TARGET}.framework/Versions/Current\"\n                                                 /bin/ln -sfh Versions/Current/Headers \"${LIB_TARGET}.framework/Headers\"\n                                                 /bin/ln -sfh \"Versions/Current/${LIB_TARGET}\" \"${LIB_TARGET}.framework/${LIB_TARGET}\"\n                                                 # The -a ensures that the headers maintain the source modification date so that we don't constantly\n                                                 # cause propagating rebuilds of files that import these headers.\n                                                 echo `pwd`\n                                                 cp -a  \"include/${LIB_TARGET}/\" \"${LIB_TARGET}.framework/Versions/A/Headers\"\n                                                 #copy the libray itself\n                                                 cp -a  \"${LIB_FILENAME}\" \"${LIB_TARGET}.framework/Versions/A/${LIB_TARGET}\"\n                                                 \n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		044AA9E2196F645D00E5867E /* Sources */ = {
@@ -228,21 +296,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		044AA9F2196F645D00E5867E /* Sources */ = {
+		044AAA14196F661200E5867E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044AAA06196F645D00E5867E /* HelloTests.m in Sources */,
+				044AAA28196F661200E5867E /* AppDelegate.m in Sources */,
+				044AAA24196F661200E5867E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		044AA9FD196F645D00E5867E /* PBXTargetDependency */ = {
+		044AAA44196F662600E5867E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 044AA9E5196F645D00E5867E /* Hello */;
-			targetProxy = 044AA9FC196F645D00E5867E /* PBXContainerItemProxy */;
+			target = 044AAA0F196F652F00E5867E /* Hello-Framework */;
+			targetProxy = 044AAA43196F662600E5867E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -251,6 +320,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				044AAA03196F645D00E5867E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		044AAA20196F661200E5867E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044AAA21196F661200E5867E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -332,6 +409,7 @@
 				DSTROOT = /tmp/Hello.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -344,45 +422,68 @@
 				DSTROOT = /tmp/Hello.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		044AAA0D196F645D00E5867E /* Debug */ = {
+		044AAA11196F652F00E5867E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044AAA12196F652F00E5867E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044AAA3E196F661200E5867E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/lib_output",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				GCC_PREFIX_HEADER = "HelloFrameworkDemo/HelloFrameworkDemo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HelloTests/HelloTests-Info.plist";
+				INFOPLIST_FILE = "HelloFrameworkDemo/HelloFrameworkDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		044AAA0E196F645D00E5867E /* Release */ = {
+		044AAA3F196F661200E5867E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/lib_output",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
-				INFOPLIST_FILE = "HelloTests/HelloTests-Info.plist";
+				GCC_PREFIX_HEADER = "HelloFrameworkDemo/HelloFrameworkDemo-Prefix.pch";
+				INFOPLIST_FILE = "HelloFrameworkDemo/HelloFrameworkDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -406,11 +507,19 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		044AAA0C196F645D00E5867E /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
+		044AAA10196F652F00E5867E /* Build configuration list for PBXAggregateTarget "Hello-Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				044AAA0D196F645D00E5867E /* Debug */,
-				044AAA0E196F645D00E5867E /* Release */,
+				044AAA11196F652F00E5867E /* Debug */,
+				044AAA12196F652F00E5867E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044AAA3D196F661200E5867E /* Build configuration list for PBXNativeTarget "HelloFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044AAA3E196F661200E5867E /* Debug */,
+				044AAA3F196F661200E5867E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

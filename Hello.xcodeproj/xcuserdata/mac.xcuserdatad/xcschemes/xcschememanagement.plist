@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Hello-Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Hello.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>HelloFrameworkDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>044AA9F5196F645D00E5867E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>044AAA0F196F652F00E5867E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>044AAA17196F661200E5867E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>044AAA2E196F661200E5867E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
